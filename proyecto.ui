@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClienteGustavo</class>
+ <widget class="QMainWindow" name="ClienteGustavo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>613</width>
+    <height>424</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="Servidor_2">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>611</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Servidor</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>581</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="Servidor">
+      <item>
+       <widget class="QLabel" name="ip_2">
+        <property name="text">
+         <string>IP</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="ip"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Puerto</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="puerto"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="conectar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>581</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Conectar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Estudiante">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>110</y>
+      <width>611</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Estudiante</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>581</width>
+       <height>122</height>
+      </rect>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Nombre</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="nombre"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Email</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="email"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Contraseña</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="contrasenia"/>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QPushButton" name="enviarB">
+        <property name="text">
+         <string>Enviar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Archivo">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>260</y>
+      <width>611</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>595</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="abrirB">
+        <property name="text">
+         <string>Abrir</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="abrir"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="estado">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>360</y>
+      <width>40</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Estado: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="conexion">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>360</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Desconectado</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>613</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
